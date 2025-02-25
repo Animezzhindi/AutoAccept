@@ -27,16 +27,16 @@ async def get_fsub(bot, message):
     except UserNotParticipant:
         # Generate the channel invite link
         channel_link = (await bot.get_chat(target_channel_id)).invite_link
-        join_button = InlineKeyboardButton("🔔 Join Our Channel", url=channel_link)
+        join_button = InlineKeyboardButton("🔔 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=channel_link)
 
         # Display a message encouraging the user to join
         keyboard = [[join_button]]
         await message.reply(
-            f"<b>👋 Hello {message.from_user.mention()}, Welcome!</b>\n\n"
-            "📢 <b>Exclusive Access Alert!</b> ✨\n\n"
-            "To unlock all the amazing features I offer, please join our updates channel. "
-            "This helps us keep you informed and ensures top-notch service just for you! 😊\n\n"
-            "<i>🚀 Join now and Enjoy !</i>",
+            f"<b>👋 𝗛ᴇʟʟᴏ {message.from_user.mention()}, 𝗪ᴇʟᴄᴏᴍᴇ!</b>\n\n"
+            "📢 <b>𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗔𝗻𝗶𝗺𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹!</b> ✨\n\n"
+            "𝖧𝖾𝗒, 𝖩𝗈𝗂𝗇 𝖮𝗎𝗋 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖥𝗈𝗋 𝖠𝗇𝗂𝗆𝖾𝗌 𝖨𝗇 𝖧𝗂𝗇𝖽𝗂 𝖣𝗎𝖻𝖻𝖾𝖽. "
+            "𝖠𝗅𝗅 𝖳𝗒𝗉 | 𝖮𝖿𝖿𝗂𝖼𝗂𝖺𝗅 𝖣𝗎𝖻 - 𝖥𝗎𝗇 𝖣𝗎𝖻 𝖨 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖸𝗈𝗎 𝖠𝗅𝗅 𝖢𝗅𝗂𝖼𝗄 𝖩𝗈𝗂𝗇 𝖡𝗎𝗍𝗍𝗈𝗇! 🫠\n\n"
+            "<i>🚀 𝖩𝗈𝗂𝗇 𝖭𝗈𝗐 𝖠𝗇𝖽 𝖤𝗇𝗃𝗈𝗒 😘!</i>",
             reply_markup=InlineKeyboardMarkup(keyboard),
         )
         return False
