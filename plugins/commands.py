@@ -33,10 +33,10 @@ async def get_fsub(bot, message):
         keyboard = [[join_button]]
         await message.reply(
             f"<b>👋 𝗛ᴇʟʟᴏ {message.from_user.mention()}, 𝗪ᴇʟᴄᴏᴍᴇ!</b>\n\n"
-            "📢 <b>𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗔𝗻𝗶𝗺𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹!</b> ✨\n\n"
-            "𝖧𝖾𝗒, 𝖩𝗈𝗂𝗇 𝖮𝗎𝗋 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖥𝗈𝗋 𝖠𝗇𝗂𝗆𝖾𝗌 𝖨𝗇 𝖧𝗂𝗇𝖽𝗂 𝖣𝗎𝖻𝖻𝖾𝖽. "
+            "📢 <b>𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗔𝗻𝗶𝗺𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹!</b> ✨\n\n"
+            "𝖧𝖾𝗒, 𝖩𝗈𝗂𝗇 𝖮𝗎𝗋 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖥𝗈𝗋 𝖠𝗇𝗂𝗆𝖾 𝖨𝗇 𝖧𝗂𝗇𝖽𝗂 𝖣𝗎𝖻𝖻𝖾𝖽 "
             "𝖠𝗅𝗅 𝖳𝗒𝗉 | 𝖮𝖿𝖿𝗂𝖼𝗂𝖺𝗅 𝖣𝗎𝖻 - 𝖥𝗎𝗇 𝖣𝗎𝖻 𝖨 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖸𝗈𝗎 𝖠𝗅𝗅 𝖢𝗅𝗂𝖼𝗄 𝖩𝗈𝗂𝗇 𝖡𝗎𝗍𝗍𝗈𝗇! 🫠\n\n"
-            "<i>🚀 𝖩𝗈𝗂𝗇 𝖭𝗈𝗐 𝖠𝗇𝖽 𝖤𝗇𝗃𝗈𝗒 😘!</i>",
+            "<b>🚀 𝖩𝗈𝗂𝗇 𝖭𝗈𝗐 𝖠𝗇𝖽 𝖤𝗇𝗃𝗈𝗒 😘!</b>",
             reply_markup=InlineKeyboardMarkup(keyboard),
         )
         return False
@@ -75,7 +75,7 @@ async def start_message(c, m):
     if not is_subscribed:
         return
 
-    await m.reply_photo("https://i.ibb.co/tPzPFydH/2455c364f4be.jpg", caption="𝖧𝖾𝗒 ,<b>\n\n›› 𝖨 𝖢𝖺𝗇 𝖠𝖼𝖼𝖾𝗉𝗍 𝖩𝗈𝗂𝗇 𝖱𝖾𝗊𝗎𝖾𝗌𝗍𝗌 𝖠𝗎𝗍𝗈𝗆𝖺𝗍𝗂𝖼𝖺𝗅𝗅𝗒.\n›› 𝖨 𝖢𝖺𝗇 𝖠𝖼𝖼𝖾𝗉𝗍 𝖠𝗅𝗅 𝖯𝖾𝗇𝖽𝗂𝗇𝗀 𝖱𝖾𝗊𝗎𝖾𝗌𝗍𝗌.\n\n𝖩𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗂𝗇 𝗒𝗈𝗎𝗋 𝖼𝗁𝖺𝗇𝗇𝖾𝗅𝗌 𝖺𝗇𝖽 𝗀𝗋𝗈𝗎𝗉𝗌 𝗐𝗂𝗍𝗁 𝗉𝖾𝗋𝗆𝗂𝗌𝗌𝗂𝗈𝗇 𝗍𝗈 𝖺𝖽𝖽 𝗇𝖾𝗐 𝗆𝖾𝗆𝖻𝖾𝗋𝗌.\n\n𝖧𝗈𝗐 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾 /help\n\n<blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/Anime_India_Owner'>𝗟̸ᴜғғʏ</a></blockquote>",
+    await m.reply_photo("https://i.ibb.co/tPzPFydH/2455c364f4be.jpg", caption="𝖧𝖾𝗒 ,<b>\n\n›› 𝖨 𝖢𝖺𝗇 𝖠𝖼𝖼𝖾𝗉𝗍 𝖩𝗈𝗂𝗇 𝖱𝖾𝗊𝗎𝖾𝗌𝗍𝗌 𝖠𝗎𝗍𝗈𝗆𝖺𝗍𝗂𝖼𝖺𝗅𝗅𝗒.\n›› 𝖨 𝖢𝖺𝗇 𝖠𝖼𝖼𝖾𝗉𝗍 𝖠𝗅𝗅 𝖯𝖾𝗇𝖽𝗂𝗇𝗀 𝖱𝖾𝗊𝗎𝖾𝗌𝗍𝗌.\n\n𝖩𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗂𝗇 𝗒𝗈𝗎𝗋 𝖼𝗁𝖺𝗇𝗇𝖾𝗅𝗌 𝖺𝗇𝖽 𝗀𝗋𝗈𝗎𝗉𝗌 𝗐𝗂𝗍𝗁 𝗉𝖾𝗋𝗆𝗂𝗌𝗌𝗂𝗈𝗇 𝗍𝗈 𝖺𝖽𝖽 𝗇𝖾𝗐 𝗆𝖾𝗆𝖻𝖾𝗋𝗌.\n\n𝖧𝗈𝗐 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾 /help\n\n**<blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/Anime_India_Owner'>𝗟̸ᴜғғʏ</a></blockquote>**",
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton("⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ⇆", url=f"https://telegram.me/A_C_I_Request_Accept_Bot?startchannel=true&admin=invite_users")
