@@ -187,7 +187,7 @@ async def approve_new(client, m):
         try:
             await client.send_message(
                 m.from_user.id,
-                f"{m.from_user.mention},\n\n𝖸𝗈𝗎𝗋 𝖱𝖾𝗊𝗎𝗌𝗍 𝖳𝗈 𝖩𝗈𝗂𝗇 {m.chat.title} 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖠𝖼𝖼𝖾𝗉𝗍𝖾𝖽. \n\n𝖩𝗈𝗂𝗇 𝗈𝗎𝗋 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝖿𝗈𝗋 𝗇𝖾𝗐 𝗋𝖾𝗅𝖾𝗌𝖾𝖽 𝖺𝗇𝗂𝗆𝖾. \n\n›› https://t.me/+ZBAwKR6TX7NhNmE1 https://t.me/+ZBAwKR6TX7NhNmE1 https://t.me/+ZBAwKR6TX7NhNmE1.</b>""".format(m.from_user.mention, m.chat.title))
+                f"{m.from_user.mention},\n\n𝖸𝗈𝗎𝗋 𝖱𝖾𝗊𝗎𝗌𝗍 𝖳𝗈 𝖩𝗈𝗂𝗇 {m.chat.title} 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖠𝖼𝖼𝖾𝗉𝗍𝖾𝖽. \n\n𝖩𝗈𝗂𝗇 𝗈𝗎𝗋 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝖿𝗈𝗋 𝗇𝖾𝗐 𝗋𝖾𝗅𝖾𝗌𝖾𝖽 𝖺𝗇𝗂𝗆𝖾. \n\nhttps://t.me/+ZBAwKR6TX7NhNmE1 https://t.me/+ZBAwKR6TX7NhNmE1 https://t.me/+ZBAwKR6TX7NhNmE1</b>""".format(m.from_user.mention, m.chat.title))
         except:
             pass
     except Exception as e:
