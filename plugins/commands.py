@@ -191,11 +191,10 @@ async def approve_new(client, m):
 
 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("ᴍᴏʀᴇ ᴀɴɪᴍᴇ ʜɪɴᴅɪ", url=f"https://t.me/Anime_Community_India")]]
+                )
+            )
         except:
             pass
-    except Exception as e:
-        print(str(e))
-        pass
     except Exception as e:
         print(str(e))
         pass
